@@ -48,7 +48,7 @@ O pipeline coleta dados meteorológicos da API OpenWeatherMap a cada hora, trans
 
 ## 🏗️ Arquitetura do Pipeline
 
-<img src='arquitetura_de_dados_draw.png' alt='Arquitetura do Pipeline ETL'>
+<img src='images\arquitetura_de_dados_draw.png' alt='Arquitetura do Pipeline ETL'>
 
 ---
 
