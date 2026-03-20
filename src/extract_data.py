@@ -5,9 +5,6 @@ from pathlib import Path
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-api_key = 'bbccf554e55807e02c0efb895faeb031'  # This should be loaded from the .env file in a real application
-url = f'https://api.openweathermap.org/data/2.5/weather?q=Sao Paulo,BR&units=metric&appid={api_key}'
-
 def extract_weather_data(url:str) -> list:
     response = requests.get(url)
     data = response.json()
